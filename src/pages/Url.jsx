@@ -13,7 +13,7 @@ const Url = () => {
 
     useEffect(() => {
         const fetchUrl = () => {
-            axios.get(`http://127.0.0.1:8000/api/get-url/${keyword}/`)
+            axios.get(`https://shortly-dun-zeta.vercel.app/api/get-url/${keyword}/`)
             .then(res => {
                 if (res.status === 200) {
                     console.log(res.data.url)
