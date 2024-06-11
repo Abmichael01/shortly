@@ -87,7 +87,7 @@ const Dashboard = () => {
           </div>
           <div className="flex flex-col gap-5">
             {urls.map(url => (
-              <div className="flex justify-between last:border-none border-b pb-5" key={url.id}>
+              <div className="flex justify-between  gap-5 last:border-none border-b pb-5" key={url.id}>
                 <div className="flex flex-col gap-2">
                   <Link to={`/${url.keyword}`} target="_blank">
                     <p className="text-zinc-400 text-[14px]">/{url.keyword}</p>
