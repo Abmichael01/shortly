@@ -93,7 +93,7 @@ const Dashboard = () => {
                     <p className="text-zinc-400 text-[14px]">/{url.keyword}</p>
                   </Link>
                   <Link to={`${url.url}`} target="_blank">
-                    <h2 className="text-[16px] text-wrap">{url.url}</h2>
+                    <h2 className="text-[16px] text-wrap w-full">{url.url}</h2>
                   </Link>
                   {/* <p className="text-zinc-400 text-[14px]">/{url.keyword}</p>
                   <h2 className="text-[16px]">{url.url}</h2> */}
