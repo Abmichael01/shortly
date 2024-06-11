@@ -10,7 +10,7 @@ const CopyLinkButt = ({ keyword }) => {
 
     return (
         <div>
-            <IconButt icon="fa-solid fa-copy" onClick={() => { copyLink(`http://localhost:5173/${keyword}`) }} />
+            <IconButt icon="fa-solid fa-copy" onClick={() => { copyLink(`https://shortly-dun-zeta.vercel.app/${keyword}`) }} />
         </div>
     )
 }
